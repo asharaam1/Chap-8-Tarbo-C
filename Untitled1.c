@@ -5,7 +5,7 @@
 main()
 {
     char key, key2;
-    while( (key=getsch()) != 'X' )     /* read keyboard */
+    while( (key=getch()) != 'X' )     /* read keyboard */
     if(key==0 )                       /* if extended code,*/
     {
     	key2 = getch();                   /* read second code */

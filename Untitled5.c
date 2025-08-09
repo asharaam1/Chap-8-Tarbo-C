@@ -3,12 +3,12 @@
 #define CLEAR  "\x1B[2J"
 #define C_LEFT "\x1B[D"
 #define C_RITE "\x1B[C"
-#define C_ UPUP "\x1B[A" 
-#define C_ DOWN "\x1B[B"
+#define C_UPUP "\x1B[A" 
+#define C_DOWN "\x1B[B"
 #define L_ARRO 75
-#define R_ ARRO 77   
-#define U_ ARRO 72
-#define D_ ARRO 80
+#define R_ARRO 77   
+#define U_ARRO 72
+#define D_ARRO 80
 #define ACROSS  205  
 #define UPDOWN 186
 main()
@@ -29,6 +29,7 @@ main()
 			case D_ARRO : printf(C_DOWN);  putch (UPDOWN); 
 			break;
 		}
+		
 		printf(C_LEFT);
 	}
 }
