@@ -1,5 +1,7 @@
 /* position.c */
 /* demonstrates cursor position command */
+#include <stdio.h>
+#include <conio.h>
 #define TRUE 1
 #define CLEAR "\x1B[2J"               /* clear screen */
 #define ERASE "\x1B[K"                /* erase line  */
@@ -17,3 +19,5 @@ main()
 		printf("8*(%d,%d)", row , col );     /* print coordinates */
 	}
 } 	
+
+//code run
